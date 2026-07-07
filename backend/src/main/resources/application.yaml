@@ -1,3 +1,7 @@
 spring:
   application:
     name: loan-calculator-api
+
+springdoc:
+  swagger-ui:
+    path: /swagger

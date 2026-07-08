@@ -92,7 +92,15 @@ cd backend
 Execute:
 
 ```bash
-mvn spring-boot:run
+# Windows PowerShell
+.\mvnw.cmd spring-boot:run
+```
+
+Ou
+
+```bash
+# Linux/macOS/Git Bash
+./mvnw spring-boot:run
 ```
 
 Swagger:
@@ -136,7 +144,15 @@ http://localhost:5173
 Backend:
 
 ```bash
-mvn test
+# Windows PowerShell
+.\mvnw.cmd test
+```
+
+Ou
+
+```bash
+# Linux/macOS/Git Bash
+./mvnw test
 ```
 
 Os testes contemplam:

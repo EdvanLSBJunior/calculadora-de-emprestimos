@@ -199,6 +199,7 @@ export default function LoanCalculatorForm() {
                 textTransform: "none",
                 fontSize: 16,
               }}
+              disabled={!isFormValid}
             >
               Calcular
             </Button>
